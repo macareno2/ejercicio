@@ -153,7 +153,7 @@ public class Principal_151 extends javax.swing.JFrame {
                     .addComponent(etiquetaLogin1)
                     .addComponent(campoTextoRegistrarseLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(panelRegistrarseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelRegistrarseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(etiquetaPass1)
                     .addComponent(campoTextoRegistrarsePass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
@@ -256,7 +256,8 @@ public class Principal_151 extends javax.swing.JFrame {
     private javax.swing.JTabbedPane panelRegistro;
     // End of variables declaration//GEN-END:variables
 
-
+}
+    
 class Usuario {
     private int id_usuario;
     private String login;
@@ -299,5 +300,3 @@ class Usuario {
 
 
 
-
-}
