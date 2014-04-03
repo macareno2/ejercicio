@@ -456,7 +456,7 @@ class Usuario {
                         try {
                             statement = con.createStatement();
                                                        
-                            statement.execute("INSERT INTO usuarios VALUES (null,'"loginA"','"passA"','"nombreCompletoA"')");     
+                            statement.execute("INSERT INTO usuarios VALUES (null,'" + loginA + "','" + passA + "','" + nombreCompletoA + "')");     
                                    
                     } catch (SQLException e) {
                         e.printStackTrace();
